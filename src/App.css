@@ -1,0 +1,110 @@
+/*==================Main Style========================= */
+
+.ant-tabs-tabpane {
+  flex: none;
+  width: 50rem !important;
+  outline: none;
+  width: 100%;
+  /* padding: 0 378px !important; */
+  margin-left: 12rem;
+}
+.tabClass {
+  /* background-color: aquamarine !important; */
+  width: 27rem !important;
+}
+.tabClass .ant-tabs-tab-btn {
+  color: white !important;
+}
+.tabClass1 .ant-tabs-tab-btn {
+  color: white !important;
+}
+.ant-tabs-ink-bar {
+  background-color: #fa789d !important;
+}
+.tabClass1 {
+  /* background-color: aquamarine !important; */
+  width: 430px !important;
+  /* margin-left: 5rem !important ; */
+}
+.ant-tabs-tab-btn {
+  margin-left: 12rem !important;
+}
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-bottom: none !important;
+  content: "";
+}
+
+@media (max-width: 360px) {
+  .tabClass {
+    width: 120px !important;
+  }
+  .tabClass1 {
+    width: 120px !important;
+  }
+  .ant-tabs-tab-btn {
+    margin-left: 2rem !important;
+  }
+  .ant-tabs-tabpane {
+    flex: none;
+    /* width: -20rem !important; */
+    outline: none;
+    width: 100%;
+    /* padding: 0 378px !important; */
+    margin-left: 0rem;
+  }
+  .MintCustom p{
+   text-align: start !important;
+  }
+}
+
+.upperDiv p {
+  color: #fa789d !important;
+  font-weight: 600;
+}
+
+/*==================Main Style======================= */
+
+/*==================Mint Screen=========================*/
+
+.MintCustom {
+  background-color: #fa789d !important;
+  /* #FA789D */
+  /* padding: 40px 100px !important;
+   */
+  width: 30rem;
+  height: 10rem;
+  padding: 20px 30px !important;
+}
+
+.MintCustom p {
+  color: white !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.mintPar {
+  font-size: 0.7rem !important;
+  font-size: 300 !important;
+}
+
+.ant-card
+{
+  background-color: #fa789d !important;
+  border: none !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+/*==========x===========Mint Screen ends=============x========*/
+
+/*==============Burn Screen====================== */
+.ant-switch {
+  background-color: #fa789d !important;
+}
+
+/*==============Burn Screen Ends================= */
